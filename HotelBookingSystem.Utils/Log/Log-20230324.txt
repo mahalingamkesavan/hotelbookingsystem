@@ -1,0 +1,109 @@
+
+[2023-03-24 18:05:17 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Sample/context?sample4=Kumar
+
+Controler : Sample
+Action Method : getContext
+
+Request Header
+Accept:*/*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:POST
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Content-Type:application/json
+Origin:https://localhost:7192
+Referer:https://localhost:7192/swagger/index.html
+Content-Length:158
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sample3:Kishore
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+ Action Parameters
+sample : {
+  "id": 0,
+  "bookingId": 0,
+  "firstName": "string",
+  "lastName": "string",
+  "gender": "string",
+  "age": 0,
+  "udatedDate": "2023-03-24T12:34:50.992Z"
+}
+sample3 : Kishore
+sample4 : Kumar
+
+[2023-03-24 18:05:17 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Sample/context
+
+Controler : Sample
+Action Method : getContext
+
+ Response Header
+
+Response Body
+{
+  "id": 0,
+  "bookingId": 0,
+  "firstName": "string",
+  "lastName": "string",
+  "gender": "string",
+  "age": 0,
+  "udatedDate": "2023-03-24T12:34:50.992Z"
+}
+
+[2023-03-24 18:10:49 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Sample/context?sample4=4
+
+Controler : Sample
+Action Method : getContext
+
+Request Header
+Accept:*/*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:POST
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Content-Type:application/json
+Origin:https://localhost:7192
+Referer:https://localhost:7192/swagger/index.html
+Content-Length:8
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sample3:2
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+ Action Parameters
+sample : string
+sample3 : 2
+sample4 : 4
+
+[2023-03-24 18:10:49 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Sample/context
+
+Controler : Sample
+Action Method : getContext
+
+ Response Header
+Content-Type:application/json; charset=utf-8
+Date:Fri, 24 Mar 2023 12:40:48 GMT
+Server:Kestrel
+
+Response Body
+string

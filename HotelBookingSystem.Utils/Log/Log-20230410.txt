@@ -1,0 +1,2770 @@
+
+[2023-04-10 13:21:38 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/any?Cairo
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 13:21:42 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/any
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":"20 object found","Token":null,"Result":true,"NumResult":null,"TotalResult":20}
+
+[2023-04-10 13:21:42 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel?Search=Cairo&page=1&
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":"Cairo","OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 13:21:42 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+""
+
+[2023-04-10 13:22:27 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel?Search=Cairo&page=1&
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":"Cairo","OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 13:22:27 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+""
+
+[2023-04-10 13:22:33 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel?Search=Cairo&page=1&
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":"Cairo","OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 13:22:33 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+""
+
+[2023-04-10 14:13:49 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/any?c
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 14:13:49 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/any
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":"20 object found","Token":null,"Result":true,"NumResult":null,"TotalResult":20}
+
+[2023-04-10 14:13:49 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel?Search=c&page=1&
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":"c","OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 14:13:49 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":[{"Id":1,"Name":"Hotel1","Address":"A1","City":"C1","State":"S1","Pincode":"12345","HotelRating":5,"Rooms":null},{"Id":10,"Name":"Cosmopolitan Hotel","Address":"No. 706, Idle rd","City":"Saskatoon","State":"SK, Bangladesh","Pincode":"S2L 562","HotelRating":3,"Rooms":null},{"Id":13,"Name":"Copper Hills Inn","Address":"No. 89, Jacob Rd","City":"Paris","State":"ON, Canada","Pincode":"467 289","HotelRating":5,"Rooms":null},{"Id":16,"Name":"China Town Hotel","Address":"No. 156, James Road","City":"Globe","State":"AZ, USA","Pincode":"263 762","HotelRating":3,"Rooms":null},{"Id":20,"Name":"Congress Hotel","Address":"No. 49, Dave Street","City":"Kitchener","State":"ON, Canada","Pincode":"N2C 2P6","HotelRating":5,"Rooms":null}],"NumResult":null,"TotalResult":1}
+
+[2023-04-10 14:13:50 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/20
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 20
+
+[2023-04-10 14:13:50 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/16
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 16
+
+[2023-04-10 14:13:50 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/10
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 10
+
+[2023-04-10 14:13:50 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/1
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 1
+
+[2023-04-10 14:13:50 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/13
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 13
+
+[2023-04-10 14:13:50 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/20
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":20,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 14:13:50 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/16
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":16,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 14:13:50 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/10
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":10,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 14:13:50 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/1
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":1,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/1/thumnail.png","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 14:13:50 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/13
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":13,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 14:18:36 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/any?Cairo
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 14:18:36 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/any
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":"20 object found","Token":null,"Result":true,"NumResult":null,"TotalResult":20}
+
+[2023-04-10 14:18:37 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel?Search=Cairo&page=1&
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":"Cairo","OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 14:18:37 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+""
+
+[2023-04-10 14:18:51 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/any?Cairo
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 14:18:51 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/any
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":"20 object found","Token":null,"Result":true,"NumResult":null,"TotalResult":20}
+
+[2023-04-10 14:18:51 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel?Search=Cairo&page=1&
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":"Cairo","OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 14:18:51 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+""
+
+[2023-04-10 14:20:11 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/any?Cairo
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 14:20:11 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/any
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":"20 object found","Token":null,"Result":true,"NumResult":null,"TotalResult":20}
+
+[2023-04-10 14:20:13 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel?Search=Cairo&page=1&
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":"Cairo","OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 14:20:13 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+""
+
+[2023-04-10 14:21:26 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/any?c
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 14:21:26 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/any
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":"20 object found","Token":null,"Result":true,"NumResult":null,"TotalResult":20}
+
+[2023-04-10 14:21:26 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel?Search=c&page=1&
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":"c","OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 14:21:26 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":[{"Id":1,"Name":"Hotel1","Address":"A1","City":"C1","State":"S1","Pincode":"12345","HotelRating":5,"Rooms":null},{"Id":10,"Name":"Cosmopolitan Hotel","Address":"No. 706, Idle rd","City":"Saskatoon","State":"SK, Bangladesh","Pincode":"S2L 562","HotelRating":3,"Rooms":null},{"Id":13,"Name":"Copper Hills Inn","Address":"No. 89, Jacob Rd","City":"Paris","State":"ON, Canada","Pincode":"467 289","HotelRating":5,"Rooms":null},{"Id":16,"Name":"China Town Hotel","Address":"No. 156, James Road","City":"Globe","State":"AZ, USA","Pincode":"263 762","HotelRating":3,"Rooms":null},{"Id":20,"Name":"Congress Hotel","Address":"No. 49, Dave Street","City":"Kitchener","State":"ON, Canada","Pincode":"N2C 2P6","HotelRating":5,"Rooms":null}],"NumResult":null,"TotalResult":1}
+
+[2023-04-10 14:21:27 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/13
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 13
+
+[2023-04-10 14:21:27 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/13
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":13,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 14:21:27 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/10
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 10
+
+[2023-04-10 14:21:27 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/10
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":10,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 14:21:27 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/1
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 1
+
+[2023-04-10 14:21:27 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/1
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":1,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/1/thumnail.png","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 14:21:27 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/16
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 16
+
+[2023-04-10 14:21:27 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/16
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":16,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 14:21:27 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/20
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 20
+
+[2023-04-10 14:21:27 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/20
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":20,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 14:32:48 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/any?csa
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 14:32:48 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/any
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":"20 object found","Token":null,"Result":true,"NumResult":null,"TotalResult":20}
+
+[2023-04-10 14:32:48 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel?Search=csa&page=1&
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":"csa","OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 14:32:48 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+""
+
+[2023-04-10 15:08:02 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/User/Get
+
+Controler : User
+Action Method : GetToken
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:POST
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer null
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+Content-Length:53
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+logIn : {"Username":"user","Password":"pass"}
+
+[2023-04-10 15:08:02 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/User/Get
+
+Controler : User
+Action Method : GetToken
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg","Result":null,"NumResult":null,"TotalResult":null}
+
+[2023-04-10 15:08:02 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/User/GetUser
+
+Controler : User
+Action Method : Get
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:POST
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+Content-Length:0
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+
+[2023-04-10 15:08:02 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/User/GetUser
+
+Controler : User
+Action Method : Get
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"Username":"user","FirstName":"F","LastName":"L","Email":"fl@gm.com","Age":18,"Password":"","Type":"Admin"},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/any?page=1&
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/GetAll?page=1&
+
+Controler : Hotel
+Action Method : GetAll
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/any
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":"20 object found","Token":null,"Result":true,"NumResult":null,"TotalResult":20}
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/GetAll
+
+Controler : Hotel
+Action Method : GetAll
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":[{"Id":1,"Name":"Hotel1","Address":"A1","City":"C1","State":"S1","Pincode":"12345","HotelRating":5,"Rooms":null},{"Id":2,"Name":"Regency Hotel","Address":"No. 64, Victoria Street","City":"Kitchener","State":"ON, Canada","Pincode":"N2C 2M6","HotelRating":4,"Rooms":null},{"Id":3,"Name":"Long Island Hotel","Address":"No. 79, Connaught Street","City":"London","State":"ON, Canada","Pincode":"N2C 2K3","HotelRating":2,"Rooms":null},{"Id":4,"Name":"Empire State Hotel","Address":"No. 45, Sweden St. Street","City":"London","State":"ON, Canada","Pincode":"N2A 0E4","HotelRating":5,"Rooms":null},{"Id":5,"Name":"Midtown Hotel","Address":"No. 60, Lincoln Street","City":"Guelph","State":"ON, Canada","Pincode":"N2C 2E8","HotelRating":4,"Rooms":null},{"Id":6,"Name":"Eighth Avenue Hotel","Address":"No. 20400, Phoenix","City":"Globe","State":"AZ, USA","Pincode":"AZ85027","HotelRating":3,"Rooms":null},{"Id":7,"Name":"Lake Michigan Hotel","Address":"No. 8033, King George Boulevard","City":"Surrey","State":"BC, Canada","Pincode":"V3W 5B4","HotelRating":2,"Rooms":null},{"Id":8,"Name":"Best Western Hotel","Address":"No. 1565, E South St","City":"Globe","State":"AZ, USA","Pincode":"85501","HotelRating":5,"Rooms":null},{"Id":9,"Name":"Elite Hotel","Address":"No. 32, Gandhi Road","City":"Mumbai","State":"Maharashtra, India","Pincode":"534076","HotelRating":5,"Rooms":null},{"Id":10,"Name":"Cosmopolitan Hotel","Address":"No. 706, Idle rd","City":"Saskatoon","State":"SK, Bangladesh","Pincode":"S2L 562","HotelRating":3,"Rooms":null}],"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/2
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 2
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/6
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 6
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/2
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":2,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/6
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":6,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/9
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 9
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/9
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":9,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/8
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 8
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/10
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 10
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/10
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":10,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/8
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":8,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/4
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 4
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/4
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":4,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/1
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 1
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/5
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 5
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/1
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":1,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/1/thumnail.png","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/5
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":5,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/3
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 3
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/3
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":3,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/7
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 7
+
+[2023-04-10 15:08:08 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/7
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":7,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:08:18 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/any?page=2&
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":2,"Limit":10}
+
+[2023-04-10 15:08:18 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/GetAll?page=2&
+
+Controler : Hotel
+Action Method : GetAll
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":2,"Limit":10}
+
+[2023-04-10 15:08:18 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/any
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":"20 object found","Token":null,"Result":true,"NumResult":null,"TotalResult":20}
+
+[2023-04-10 15:08:18 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/GetAll
+
+Controler : Hotel
+Action Method : GetAll
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":[{"Id":11,"Name":"Prestige Hotel","Address":"No. 45, Vanier Park","City":"Kitchener","State":"ON, Canada","Pincode":"Sd3 d35","HotelRating":2,"Rooms":null},{"Id":12,"Name":"King George Inn \u0026 Suites","Address":"No. 41, Greenfield","City":"London","State":"ON, Canada","Pincode":"234 987","HotelRating":4,"Rooms":null},{"Id":13,"Name":"Copper Hills Inn","Address":"No. 89, Jacob Rd","City":"Paris","State":"ON, Canada","Pincode":"467 289","HotelRating":5,"Rooms":null},{"Id":14,"Name":"Sawmill Inn","Address":"No. 85, Martin Street","City":"Ottawa","State":"BC, Canada","Pincode":"263 987","HotelRating":4,"Rooms":null},{"Id":15,"Name":"Northgate Inn","Address":"No. 78, Josseph St. Street","City":"Guelph","State":"BC, Canada","Pincode":"267 387","HotelRating":5,"Rooms":null},{"Id":16,"Name":"China Town Hotel","Address":"No. 156, James Road","City":"Globe","State":"AZ, USA","Pincode":"263 762","HotelRating":3,"Rooms":null},{"Id":17,"Name":"Sunshine Hotel","Address":"No. 7598, Atomic Street","City":"Ottawa","State":"New York, USA","Pincode":"756 145","HotelRating":2,"Rooms":null},{"Id":18,"Name":"River Boat Hotel","Address":"No. 5476, Saint Jake Rd","City":"San Jose","State":"San Jose, USA","Pincode":"675 846","HotelRating":4,"Rooms":null},{"Id":19,"Name":"Star Hotel","Address":"No. 7465, Thames Rd","City":"Gandhinagar\r\n","State":"Gujarat, India","Pincode":"145 895","HotelRating":5,"Rooms":null},{"Id":20,"Name":"Congress Hotel","Address":"No. 49, Dave Street","City":"Kitchener","State":"ON, Canada","Pincode":"N2C 2P6","HotelRating":5,"Rooms":null}],"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/User/GetUser
+
+Controler : User
+Action Method : Get
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:POST
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+Content-Length:0
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/User/GetUser
+
+Controler : User
+Action Method : Get
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"Username":"user","FirstName":"F","LastName":"L","Email":"fl@gm.com","Age":18,"Password":"","Type":"Admin"},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/GetAll?page=2&
+
+Controler : Hotel
+Action Method : GetAll
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":2,"Limit":10}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/any?page=2&
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":2,"Limit":10}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/GetAll
+
+Controler : Hotel
+Action Method : GetAll
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":[{"Id":11,"Name":"Prestige Hotel","Address":"No. 45, Vanier Park","City":"Kitchener","State":"ON, Canada","Pincode":"Sd3 d35","HotelRating":2,"Rooms":null},{"Id":12,"Name":"King George Inn \u0026 Suites","Address":"No. 41, Greenfield","City":"London","State":"ON, Canada","Pincode":"234 987","HotelRating":4,"Rooms":null},{"Id":13,"Name":"Copper Hills Inn","Address":"No. 89, Jacob Rd","City":"Paris","State":"ON, Canada","Pincode":"467 289","HotelRating":5,"Rooms":null},{"Id":14,"Name":"Sawmill Inn","Address":"No. 85, Martin Street","City":"Ottawa","State":"BC, Canada","Pincode":"263 987","HotelRating":4,"Rooms":null},{"Id":15,"Name":"Northgate Inn","Address":"No. 78, Josseph St. Street","City":"Guelph","State":"BC, Canada","Pincode":"267 387","HotelRating":5,"Rooms":null},{"Id":16,"Name":"China Town Hotel","Address":"No. 156, James Road","City":"Globe","State":"AZ, USA","Pincode":"263 762","HotelRating":3,"Rooms":null},{"Id":17,"Name":"Sunshine Hotel","Address":"No. 7598, Atomic Street","City":"Ottawa","State":"New York, USA","Pincode":"756 145","HotelRating":2,"Rooms":null},{"Id":18,"Name":"River Boat Hotel","Address":"No. 5476, Saint Jake Rd","City":"San Jose","State":"San Jose, USA","Pincode":"675 846","HotelRating":4,"Rooms":null},{"Id":19,"Name":"Star Hotel","Address":"No. 7465, Thames Rd","City":"Gandhinagar\r\n","State":"Gujarat, India","Pincode":"145 895","HotelRating":5,"Rooms":null},{"Id":20,"Name":"Congress Hotel","Address":"No. 49, Dave Street","City":"Kitchener","State":"ON, Canada","Pincode":"N2C 2P6","HotelRating":5,"Rooms":null}],"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/any
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":"20 object found","Token":null,"Result":true,"NumResult":null,"TotalResult":20}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/20
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 20
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/20
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":20,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/14
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 14
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/14
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":14,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/13
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 13
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/12
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 12
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/13
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":13,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/12
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":12,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/11
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 11
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/16
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 16
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/11
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":11,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/16
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":16,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/18
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 18
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/18
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":18,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/19
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 19
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/15
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 15
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/19
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":19,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/15
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":15,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/17
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Content-Type:application/json
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+id : 17
+
+[2023-04-10 15:09:03 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/HotelPictures/thumnail/17
+
+Controler : HotelPictures
+Action Method : GetThumnailByHotelId
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"HotelId":17,"PictureName":null,"PictureUrl":"https://localhost:7192/Hotel/Pictures/imagenotfound.jpg","PictureType":null},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:09:11 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/User/GetUser
+
+Controler : User
+Action Method : Get
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:POST
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+Content-Length:0
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+
+[2023-04-10 15:09:11 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/User/GetUser
+
+Controler : User
+Action Method : Get
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":{"Username":"user","FirstName":"F","LastName":"L","Email":"fl@gm.com","Age":18,"Password":"","Type":"Admin"},"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:09:11 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/GetAll?page=3&
+
+Controler : Hotel
+Action Method : GetAll
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":3,"Limit":10}
+
+[2023-04-10 15:09:11 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/any?page=3&
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Request Header
+Accept:application/json, text/plain, */*
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjgxMTE5NDgyLCJleHAiOjE2ODExMjMwODIsImlhdCI6MTY4MTExOTQ4Mn0.G7y43u97zhgjU9A5rVOF1_w77drwuWUOMXfB5DzhhWg
+Origin:http://localhost:3006
+Referer:http://localhost:3006/
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:cross-site
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":3,"Limit":10}
+
+[2023-04-10 15:09:11 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/GetAll
+
+Controler : Hotel
+Action Method : GetAll
+
+Response Header
+
+Response Body
+""
+
+[2023-04-10 15:09:11 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/any
+
+Controler : Hotel
+Action Method : AnyHotels
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":"20 object found","Token":null,"Result":true,"NumResult":null,"TotalResult":20}
+
+[2023-04-10 15:09:54 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/c?Search=c
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Referer:https://localhost:7192/swagger/index.html
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":"c","OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+searchData : "c"
+
+[2023-04-10 15:09:58 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/c
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":[{"Id":1,"Name":"Hotel1","Address":"A1","City":"C1","State":"S1","Pincode":"12345","HotelRating":5,"Rooms":null},{"Id":10,"Name":"Cosmopolitan Hotel","Address":"No. 706, Idle rd","City":"Saskatoon","State":"SK, Bangladesh","Pincode":"S2L 562","HotelRating":3,"Rooms":null},{"Id":13,"Name":"Copper Hills Inn","Address":"No. 89, Jacob Rd","City":"Paris","State":"ON, Canada","Pincode":"467 289","HotelRating":5,"Rooms":null},{"Id":16,"Name":"China Town Hotel","Address":"No. 156, James Road","City":"Globe","State":"AZ, USA","Pincode":"263 762","HotelRating":3,"Rooms":null},{"Id":20,"Name":"Congress Hotel","Address":"No. 49, Dave Street","City":"Kitchener","State":"ON, Canada","Pincode":"N2C 2P6","HotelRating":5,"Rooms":null}],"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:10:57 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/Tag?Search=Tag
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Referer:https://localhost:7192/swagger/index.html
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":"Tag","OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+searchData : "Tag"
+
+[2023-04-10 15:10:57 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/Tag
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+""
+
+[2023-04-10 15:17:04 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/c
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Referer:https://localhost:7192/swagger/index.html
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+searchData : "c"
+
+[2023-04-10 15:17:06 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/c
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":[{"Id":1,"Name":"Hotel1","Address":"A1","City":"C1","State":"S1","Pincode":"12345","HotelRating":5,"Rooms":null},{"Id":10,"Name":"Cosmopolitan Hotel","Address":"No. 706, Idle rd","City":"Saskatoon","State":"SK, Bangladesh","Pincode":"S2L 562","HotelRating":3,"Rooms":null},{"Id":13,"Name":"Copper Hills Inn","Address":"No. 89, Jacob Rd","City":"Paris","State":"ON, Canada","Pincode":"467 289","HotelRating":5,"Rooms":null},{"Id":16,"Name":"China Town Hotel","Address":"No. 156, James Road","City":"Globe","State":"AZ, USA","Pincode":"263 762","HotelRating":3,"Rooms":null},{"Id":20,"Name":"Congress Hotel","Address":"No. 49, Dave Street","City":"Kitchener","State":"ON, Canada","Pincode":"N2C 2P6","HotelRating":5,"Rooms":null}],"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:19:55 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/c
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Referer:https://localhost:7192/swagger/index.html
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+searchData : "c"
+
+[2023-04-10 15:19:55 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/c
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":[{"Id":1,"Name":"Hotel1","Address":"A1","City":"C1","State":"S1","Pincode":"12345","HotelRating":5,"Rooms":null},{"Id":10,"Name":"Cosmopolitan Hotel","Address":"No. 706, Idle rd","City":"Saskatoon","State":"SK, Bangladesh","Pincode":"S2L 562","HotelRating":3,"Rooms":null},{"Id":13,"Name":"Copper Hills Inn","Address":"No. 89, Jacob Rd","City":"Paris","State":"ON, Canada","Pincode":"467 289","HotelRating":5,"Rooms":null},{"Id":16,"Name":"China Town Hotel","Address":"No. 156, James Road","City":"Globe","State":"AZ, USA","Pincode":"263 762","HotelRating":3,"Rooms":null},{"Id":20,"Name":"Congress Hotel","Address":"No. 49, Dave Street","City":"Kitchener","State":"ON, Canada","Pincode":"N2C 2P6","HotelRating":5,"Rooms":null}],"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:20:14 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/C
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Referer:https://localhost:7192/swagger/index.html
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+searchData : "C"
+
+[2023-04-10 15:20:14 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/C
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":[{"Id":1,"Name":"Hotel1","Address":"A1","City":"C1","State":"S1","Pincode":"12345","HotelRating":5,"Rooms":null},{"Id":10,"Name":"Cosmopolitan Hotel","Address":"No. 706, Idle rd","City":"Saskatoon","State":"SK, Bangladesh","Pincode":"S2L 562","HotelRating":3,"Rooms":null},{"Id":13,"Name":"Copper Hills Inn","Address":"No. 89, Jacob Rd","City":"Paris","State":"ON, Canada","Pincode":"467 289","HotelRating":5,"Rooms":null},{"Id":16,"Name":"China Town Hotel","Address":"No. 156, James Road","City":"Globe","State":"AZ, USA","Pincode":"263 762","HotelRating":3,"Rooms":null},{"Id":20,"Name":"Congress Hotel","Address":"No. 49, Dave Street","City":"Kitchener","State":"ON, Canada","Pincode":"N2C 2P6","HotelRating":5,"Rooms":null}],"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:21:21 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/C
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Referer:https://localhost:7192/swagger/index.html
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+searchData : "C"
+
+[2023-04-10 15:21:24 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/C
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":[{"Id":1,"Name":"Hotel1","Address":"A1","City":"C1","State":"S1","Pincode":"12345","HotelRating":5,"Rooms":null},{"Id":10,"Name":"Cosmopolitan Hotel","Address":"No. 706, Idle rd","City":"Saskatoon","State":"SK, Bangladesh","Pincode":"S2L 562","HotelRating":3,"Rooms":null},{"Id":13,"Name":"Copper Hills Inn","Address":"No. 89, Jacob Rd","City":"Paris","State":"ON, Canada","Pincode":"467 289","HotelRating":5,"Rooms":null},{"Id":16,"Name":"China Town Hotel","Address":"No. 156, James Road","City":"Globe","State":"AZ, USA","Pincode":"263 762","HotelRating":3,"Rooms":null},{"Id":20,"Name":"Congress Hotel","Address":"No. 49, Dave Street","City":"Kitchener","State":"ON, Canada","Pincode":"N2C 2P6","HotelRating":5,"Rooms":null}],"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:22:46 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/C
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Referer:https://localhost:7192/swagger/index.html
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+searchData : "C"
+
+[2023-04-10 15:23:30 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/C
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":[{"Id":1,"Name":"Hotel1","Address":"A1","City":"C1","State":"S1","Pincode":"12345","HotelRating":5,"Rooms":null},{"Id":10,"Name":"Cosmopolitan Hotel","Address":"No. 706, Idle rd","City":"Saskatoon","State":"SK, Bangladesh","Pincode":"S2L 562","HotelRating":3,"Rooms":null},{"Id":13,"Name":"Copper Hills Inn","Address":"No. 89, Jacob Rd","City":"Paris","State":"ON, Canada","Pincode":"467 289","HotelRating":5,"Rooms":null},{"Id":16,"Name":"China Town Hotel","Address":"No. 156, James Road","City":"Globe","State":"AZ, USA","Pincode":"263 762","HotelRating":3,"Rooms":null},{"Id":20,"Name":"Congress Hotel","Address":"No. 49, Dave Street","City":"Kitchener","State":"ON, Canada","Pincode":"N2C 2P6","HotelRating":5,"Rooms":null}],"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:24:24 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/s
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Referer:https://localhost:7192/swagger/index.html
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+searchData : "s"
+
+[2023-04-10 15:24:28 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/s
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":[{"Id":7,"Name":"Lake Michigan Hotel","Address":"No. 8033, King George Boulevard","City":"Surrey","State":"BC, Canada","Pincode":"V3W 5B4","HotelRating":2,"Rooms":null},{"Id":10,"Name":"Cosmopolitan Hotel","Address":"No. 706, Idle rd","City":"Saskatoon","State":"SK, Bangladesh","Pincode":"S2L 562","HotelRating":3,"Rooms":null},{"Id":14,"Name":"Sawmill Inn","Address":"No. 85, Martin Street","City":"Ottawa","State":"BC, Canada","Pincode":"263 987","HotelRating":4,"Rooms":null},{"Id":17,"Name":"Sunshine Hotel","Address":"No. 7598, Atomic Street","City":"Ottawa","State":"New York, USA","Pincode":"756 145","HotelRating":2,"Rooms":null},{"Id":18,"Name":"River Boat Hotel","Address":"No. 5476, Saint Jake Rd","City":"San Jose","State":"San Jose, USA","Pincode":"675 846","HotelRating":4,"Rooms":null},{"Id":19,"Name":"Star Hotel","Address":"No. 7465, Thames Rd","City":"Gandhinagar\r\n","State":"Gujarat, India","Pincode":"145 895","HotelRating":5,"Rooms":null}],"NumResult":null,"TotalResult":1}
+
+[2023-04-10 15:25:52 Information] 
+   HTTP Request :-
+
+URL path : localhost:7192/api/Hotel/s
+
+Controler : Hotel
+Action Method : Get
+
+Request Header
+Accept:application/json
+Host:localhost:7192
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method:GET
+Accept-Encoding:gzip, deflate, br
+Accept-Language:en-US,en;q=0.9
+Referer:https://localhost:7192/swagger/index.html
+sec-ch-ua:"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile:?0
+sec-ch-ua-platform:"Windows"
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+
+Action Parameters
+filter : {"HotelName":null,"HotelLocation":null,"HotelPincode":null,"Ratings":[1,2,3,4,5],"MinHotelRate":0,"MaxHotelRate":2147483647,"Search":null,"OrderBy":[],"IsAscending":true,"Page":1,"Limit":10}
+searchData : "s"
+
+[2023-04-10 15:25:57 Information] 
+   HTTP Response :-
+
+URL path : localhost:7192/api/Hotel/s
+
+Controler : Hotel
+Action Method : Get
+
+Response Header
+
+Response Body
+{"StatusCode":200,"error":false,"Message":null,"Token":null,"Result":[{"Id":7,"Name":"Lake Michigan Hotel","Address":"No. 8033, King George Boulevard","City":"Surrey","State":"BC, Canada","Pincode":"V3W 5B4","HotelRating":2,"Rooms":null},{"Id":10,"Name":"Cosmopolitan Hotel","Address":"No. 706, Idle rd","City":"Saskatoon","State":"SK, Bangladesh","Pincode":"S2L 562","HotelRating":3,"Rooms":null},{"Id":14,"Name":"Sawmill Inn","Address":"No. 85, Martin Street","City":"Ottawa","State":"BC, Canada","Pincode":"263 987","HotelRating":4,"Rooms":null},{"Id":17,"Name":"Sunshine Hotel","Address":"No. 7598, Atomic Street","City":"Ottawa","State":"New York, USA","Pincode":"756 145","HotelRating":2,"Rooms":null},{"Id":18,"Name":"River Boat Hotel","Address":"No. 5476, Saint Jake Rd","City":"San Jose","State":"San Jose, USA","Pincode":"675 846","HotelRating":4,"Rooms":null},{"Id":19,"Name":"Star Hotel","Address":"No. 7465, Thames Rd","City":"Gandhinagar\r\n","State":"Gujarat, India","Pincode":"145 895","HotelRating":5,"Rooms":null}],"NumResult":null,"TotalResult":1}

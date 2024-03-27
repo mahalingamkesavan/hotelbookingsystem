@@ -1,0 +1,12 @@
+D:\VisualStudio\HotelBookingSystem-2\HotelBookingSystem.Utils\bin\Release\net6.0\HotelBookingSystem.Utils.deps.json
+D:\VisualStudio\HotelBookingSystem-2\HotelBookingSystem.Utils\bin\Release\net6.0\HotelBookingSystem.Utils.dll
+D:\VisualStudio\HotelBookingSystem-2\HotelBookingSystem.Utils\bin\Release\net6.0\HotelBookingSystem.Utils.pdb
+D:\VisualStudio\HotelBookingSystem-2\HotelBookingSystem.Utils\obj\Release\net6.0\HotelBookingSystem.Utils.csproj.AssemblyReference.cache
+D:\VisualStudio\HotelBookingSystem-2\HotelBookingSystem.Utils\obj\Release\net6.0\HotelBookingSystem.Utils.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio\HotelBookingSystem-2\HotelBookingSystem.Utils\obj\Release\net6.0\HotelBookingSystem.Utils.AssemblyInfoInputs.cache
+D:\VisualStudio\HotelBookingSystem-2\HotelBookingSystem.Utils\obj\Release\net6.0\HotelBookingSystem.Utils.AssemblyInfo.cs
+D:\VisualStudio\HotelBookingSystem-2\HotelBookingSystem.Utils\obj\Release\net6.0\HotelBookingSystem.Utils.csproj.CoreCompileInputs.cache
+D:\VisualStudio\HotelBookingSystem-2\HotelBookingSystem.Utils\obj\Release\net6.0\HotelBookingSystem.Utils.dll
+D:\VisualStudio\HotelBookingSystem-2\HotelBookingSystem.Utils\obj\Release\net6.0\refint\HotelBookingSystem.Utils.dll
+D:\VisualStudio\HotelBookingSystem-2\HotelBookingSystem.Utils\obj\Release\net6.0\HotelBookingSystem.Utils.pdb
+D:\VisualStudio\HotelBookingSystem-2\HotelBookingSystem.Utils\obj\Release\net6.0\ref\HotelBookingSystem.Utils.dll

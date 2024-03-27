@@ -1,0 +1,82 @@
+
+[2023-03-14 17:47:32 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel/sample
+Accept: text/plain
+Host: localhost:7179
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-14 17:47:33 Information] 
+   Executing endpoint '"HotelBookingSystem3.Controllers.Hotel.HotelController.Get (HotelBookingSystem3)"'
+
+[2023-03-14 17:47:33 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem3.Model.ResponseModels.HotelEntity]]] Get(System.String, HotelBookingSystem3.Model.FilteringModels.HotelFilter)" on controller "HotelBookingSystem3.Controllers.Hotel.HotelController" ("HotelBookingSystem3").
+
+[2023-03-14 17:48:13 Information] 
+   Executed action "HotelBookingSystem3.Controllers.Hotel.HotelController.Get (HotelBookingSystem3)" in 39987.0653ms
+
+[2023-03-14 17:48:13 Information] 
+   Executed endpoint '"HotelBookingSystem3.Controllers.Hotel.HotelController.Get (HotelBookingSystem3)"'
+
+[2023-03-14 17:48:13 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-14 17:48:13 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"Object reference not set to an instance of an object.\",\"ResultCount\":0,\"TotalCount\":0}"
+
+[2023-03-14 17:49:09 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel/sample
+Accept: text/plain
+Host: localhost:7179
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-14 17:49:09 Information] 
+   Executing endpoint '"HotelBookingSystem3.Controllers.Hotel.HotelController.Get (HotelBookingSystem3)"'
+
+[2023-03-14 17:49:09 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem3.Model.ResponseModels.HotelEntity]]] Get(System.String, HotelBookingSystem3.Model.FilteringModels.HotelFilter)" on controller "HotelBookingSystem3.Controllers.Hotel.HotelController" ("HotelBookingSystem3").
+
+[2023-03-14 17:49:15 Information] 
+   Executed action "HotelBookingSystem3.Controllers.Hotel.HotelController.Get (HotelBookingSystem3)" in 5721.686ms
+
+[2023-03-14 17:49:15 Information] 
+   Executed endpoint '"HotelBookingSystem3.Controllers.Hotel.HotelController.Get (HotelBookingSystem3)"'
+
+[2023-03-14 17:49:15 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-14 17:49:15 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"Object reference not set to an instance of an object.\",\"ResultCount\":0,\"TotalCount\":0}"

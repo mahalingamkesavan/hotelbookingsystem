@@ -1,0 +1,12 @@
+D:\hotelbookingsystem\HotelBookingSystem.ImageKit\bin\Debug\net6.0\HotelBookingSystem.ImageKit.deps.json
+D:\hotelbookingsystem\HotelBookingSystem.ImageKit\bin\Debug\net6.0\HotelBookingSystem.ImageKit.dll
+D:\hotelbookingsystem\HotelBookingSystem.ImageKit\bin\Debug\net6.0\HotelBookingSystem.ImageKit.pdb
+D:\hotelbookingsystem\HotelBookingSystem.ImageKit\obj\Debug\net6.0\HotelBookingSystem.ImageKit.csproj.AssemblyReference.cache
+D:\hotelbookingsystem\HotelBookingSystem.ImageKit\obj\Debug\net6.0\HotelBookingSystem.ImageKit.GeneratedMSBuildEditorConfig.editorconfig
+D:\hotelbookingsystem\HotelBookingSystem.ImageKit\obj\Debug\net6.0\HotelBookingSystem.ImageKit.AssemblyInfoInputs.cache
+D:\hotelbookingsystem\HotelBookingSystem.ImageKit\obj\Debug\net6.0\HotelBookingSystem.ImageKit.AssemblyInfo.cs
+D:\hotelbookingsystem\HotelBookingSystem.ImageKit\obj\Debug\net6.0\HotelBookingSystem.ImageKit.csproj.CoreCompileInputs.cache
+D:\hotelbookingsystem\HotelBookingSystem.ImageKit\obj\Debug\net6.0\HotelBookingSystem.ImageKit.dll
+D:\hotelbookingsystem\HotelBookingSystem.ImageKit\obj\Debug\net6.0\refint\HotelBookingSystem.ImageKit.dll
+D:\hotelbookingsystem\HotelBookingSystem.ImageKit\obj\Debug\net6.0\HotelBookingSystem.ImageKit.pdb
+D:\hotelbookingsystem\HotelBookingSystem.ImageKit\obj\Debug\net6.0\ref\HotelBookingSystem.ImageKit.dll

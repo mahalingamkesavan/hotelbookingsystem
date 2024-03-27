@@ -1,0 +1,288 @@
+[2023-04-03 10:27:56 Warning] 
+  The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+
+[2023-04-03 10:27:56 Warning] 
+  The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+
+[2023-04-03 10:29:00 Warning] 
+  Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+
+[2023-04-03 13:26:44 Error] 
+  An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+HotelBookingSystem_2.Controllers.SampleController.file2 (HotelBookingSystem)
+HotelBookingSystem_2.Controllers.SampleController.file2 (HotelBookingSystem)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+[2023-04-03 13:27:35 Warning] 
+  The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+
+[2023-04-03 18:42:38 Error] 
+  Connection id ""0HMPK8K8J3GKV"", Request id ""0HMPK8K8J3GKV:00000009"": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Response Content-Length mismatch: too few bytes written (0 of 2014).
+
+[2023-04-03 18:43:26 Error] 
+  Connection id ""0HMPK8K8J3GKV"", Request id ""0HMPK8K8J3GKV:0000000B"": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Response Content-Length mismatch: too few bytes written (0 of 2014).
+
+[2023-04-03 19:07:40 Error] 
+  Connection id ""0HMPK8K8J3GL0"", Request id ""0HMPK8K8J3GL0:00000001"": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Response Content-Length mismatch: too few bytes written (0 of 2014).
+
+[2023-04-03 19:08:56 Error] 
+  Connection id ""0HMPK8K8J3GL0"", Request id ""0HMPK8K8J3GL0:00000003"": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Response Content-Length mismatch: too few bytes written (0 of 2014).
+
+[2023-04-03 19:10:05 Error] 
+  Connection id ""0HMPK93608R39"", Request id ""0HMPK93608R39:00000009"": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Response Content-Length mismatch: too few bytes written (0 of 161620).
+
+[2023-04-03 19:17:20 Error] 
+  An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.StreamCopyOperationInternal.CopyToAsync(Stream source, Stream destination, Nullable`1 count, Int32 bufferSize, CancellationToken cancel)
+   at Microsoft.AspNetCore.Internal.FileResultHelper.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileResultExecutorBase.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileStreamResultExecutor.ExecuteAsync(ActionContext context, FileStreamResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+[2023-04-03 19:18:15 Error] 
+  An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.StreamCopyOperationInternal.CopyToAsync(Stream source, Stream destination, Nullable`1 count, Int32 bufferSize, CancellationToken cancel)
+   at Microsoft.AspNetCore.Internal.FileResultHelper.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileResultExecutorBase.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileStreamResultExecutor.ExecuteAsync(ActionContext context, FileStreamResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+[2023-04-03 19:18:34 Error] 
+  An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.StreamCopyOperationInternal.CopyToAsync(Stream source, Stream destination, Nullable`1 count, Int32 bufferSize, CancellationToken cancel)
+   at Microsoft.AspNetCore.Internal.FileResultHelper.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileResultExecutorBase.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileStreamResultExecutor.ExecuteAsync(ActionContext context, FileStreamResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+[2023-04-03 19:18:51 Error] 
+  An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.StreamCopyOperationInternal.CopyToAsync(Stream source, Stream destination, Nullable`1 count, Int32 bufferSize, CancellationToken cancel)
+   at Microsoft.AspNetCore.Internal.FileResultHelper.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileResultExecutorBase.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileStreamResultExecutor.ExecuteAsync(ActionContext context, FileStreamResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+[2023-04-03 19:24:50 Error] 
+  An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.StreamCopyOperationInternal.CopyToAsync(Stream source, Stream destination, Nullable`1 count, Int32 bufferSize, CancellationToken cancel)
+   at Microsoft.AspNetCore.Internal.FileResultHelper.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileResultExecutorBase.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileStreamResultExecutor.ExecuteAsync(ActionContext context, FileStreamResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+[2023-04-03 19:27:36 Error] 
+  An unhandled exception has occurred while executing the request.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\VisualStudio\HotelBookingSystem-2\HotelBookingSystem-2\Resources\Images\Attendance_Report (5).csv'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at HotelBookingSystem_2.Controllers.SampleController.file3(IFormFile file) in D:\VisualStudio\HotelBookingSystem-2\HotelBookingSystem-2\Controllers\SampleController.cs:line 104
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+[2023-04-03 19:30:38 Error] 
+  An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed file.
+   at System.IO.FileStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.StreamCopyOperationInternal.CopyToAsync(Stream source, Stream destination, Nullable`1 count, Int32 bufferSize, CancellationToken cancel)
+   at Microsoft.AspNetCore.Internal.FileResultHelper.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileResultExecutorBase.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileStreamResultExecutor.ExecuteAsync(ActionContext context, FileStreamResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+[2023-04-03 19:36:11 Error] 
+  An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed file.
+   at System.IO.FileStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.StreamCopyOperationInternal.CopyToAsync(Stream source, Stream destination, Nullable`1 count, Int32 bufferSize, CancellationToken cancel)
+   at Microsoft.AspNetCore.Internal.FileResultHelper.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileResultExecutorBase.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileStreamResultExecutor.ExecuteAsync(ActionContext context, FileStreamResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+[2023-04-03 19:36:22 Error] 
+  An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed file.
+   at System.IO.FileStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.StreamCopyOperationInternal.CopyToAsync(Stream source, Stream destination, Nullable`1 count, Int32 bufferSize, CancellationToken cancel)
+   at Microsoft.AspNetCore.Internal.FileResultHelper.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileResultExecutorBase.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileStreamResultExecutor.ExecuteAsync(ActionContext context, FileStreamResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+[2023-04-03 19:41:27 Error] 
+  An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed file.
+   at System.IO.FileStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.StreamCopyOperationInternal.CopyToAsync(Stream source, Stream destination, Nullable`1 count, Int32 bufferSize, CancellationToken cancel)
+   at Microsoft.AspNetCore.Internal.FileResultHelper.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileResultExecutorBase.WriteFileAsync(HttpContext context, Stream fileStream, RangeItemHeaderValue range, Int64 rangeLength)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.FileStreamResultExecutor.ExecuteAsync(ActionContext context, FileStreamResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+

@@ -1,0 +1,1531 @@
+
+[2023-03-23 11:43:22 Information] 
+   Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/User/Get
+Accept: */*
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 11:43:23 Information] 
+   Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+
+[2023-03-23 11:43:23 Information] 
+   Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/User/Get
+Accept: application/json, text/plain, */*
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 53
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 11:43:23 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.User.UserController.GetToken (HotelBookingSystem)"'
+
+[2023-03-23 11:43:23 Information] 
+   Route matched with "{action = \"GetToken\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetToken(HotelBookingSystem.Models.ResponseModels.LogIn)" on controller "HotelBookingSystem_2.Controllers.User.UserController" ("HotelBookingSystem").
+
+[2023-03-23 11:43:23 Information] 
+   RequestBody: "{\"username\":\"user\",\"password\":\"pass\",\"remember\":true}"
+
+[2023-03-23 11:43:30 Information] 
+   Executed DbCommand ("248"ms) [Parameters=["@__logIn_Username_0='?' (Size = 50) (DbType = AnsiString), @__logIn_Password_1='?' (Size = 15) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Age], [u].[Created date], [u].[Email], [u].[First name], [u].[Last name], [u].[Password], [u].[Status], [u].[type], [u].[Username]
+FROM [User] AS [u]
+WHERE ([u].[Username] = @__logIn_Username_0) AND ([u].[Password] = @__logIn_Password_1)"
+
+[2023-03-23 11:43:31 Information] 
+   Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 11:43:31 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.User.UserController.GetToken (HotelBookingSystem)" in 7545.6415ms
+
+[2023-03-23 11:43:31 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.User.UserController.GetToken (HotelBookingSystem)"'
+
+[2023-03-23 11:43:31 Information] 
+   ResponseBody: "{\"statusCode\":200,\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInJvbGUiOiJBZG1pbiIsImVtYWlsIjoiZmxAZ20uY29tIiwiRmlyc3ROYW1lIjpbIkYiLCJMIl0sIkFnZSI6IjE4IiwiSWQiOiIyIiwibmJmIjoxNjc5NTUyMDEwLCJleHAiOjE2Nzk1NTU2MTAsImlhdCI6MTY3OTU1MjAxMH0.6urbq1EsWp3L6tubejp8JcAxS5pV5jFjbWWddsOeB5M\"}"
+
+[2023-03-23 11:43:31 Information] 
+   Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/User/GetUser
+Accept: */*
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 11:43:31 Information] 
+   Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+
+[2023-03-23 11:43:31 Information] 
+   Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/User/GetUser
+Accept: application/json, text/plain, */*
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 11:43:31 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.User.UserController.Get (HotelBookingSystem)"'
+
+[2023-03-23 11:43:31 Information] 
+   Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get()" on controller "HotelBookingSystem_2.Controllers.User.UserController" ("HotelBookingSystem").
+
+[2023-03-23 11:43:31 Information] 
+   Executed DbCommand ("18"ms) [Parameters=["@__username_0='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Age], [u].[Created date], [u].[Email], [u].[First name], [u].[Last name], [u].[Password], [u].[Status], [u].[type], [u].[Username]
+FROM [User] AS [u]
+WHERE [u].[Username] = @__username_0"
+
+[2023-03-23 11:43:31 Information] 
+   Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 11:43:31 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.User.UserController.Get (HotelBookingSystem)" in 143.8124ms
+
+[2023-03-23 11:43:31 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.User.UserController.Get (HotelBookingSystem)"'
+
+[2023-03-23 11:43:31 Information] 
+   ResponseBody: "{\"statusCode\":200,\"result\":{\"username\":\"user\",\"firstName\":\"F\",\"lastName\":\"L\",\"email\":\"fl@gm.com\",\"age\":18,\"password\":\"\",\"type\":\"Admin\"},\"totalResult\":1}"
+
+[2023-03-23 11:45:40 Information] 
+   Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: text/plain
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 3
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 11:45:40 Information] 
+   RequestBody: ""
+
+[2023-03-23 11:45:40 Information] 
+   Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+
+[2023-03-23 11:45:54 Information] 
+   Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: */*
+Connection: keep-alive
+Host: localhost:7192
+User-Agent: PostmanRuntime/7.31.1
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Content-Type: text/plain
+Content-Length: 137
+Postman-Token: [Redacted]
+
+[2023-03-23 11:45:54 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)"'
+
+[2023-03-23 11:45:54 Information] 
+   Route matched with "{action = \"AddHotel\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]] AddHotel(HotelBookingSystem.Models.ResponseModels.HotelEntity)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 11:45:54 Information] 
+   Response:
+StatusCode: 415
+Content-Type: application/problem+json; charset=utf-8
+
+[2023-03-23 11:45:54 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)" in 26.4174ms
+
+[2023-03-23 11:45:54 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)"'
+
+[2023-03-23 11:45:54 Information] 
+   RequestBody: ""
+
+[2023-03-23 11:45:54 Information] 
+   ResponseBody: "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.13\",\"title\":\"Unsupported Media Type\",\"status\":415,\"traceId\":\"00-9be01383fc47a75832ff60d26cd1a863-e3e1cf217844748b-00\"}"
+
+[2023-03-23 11:46:39 Information] 
+   Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: */*
+Connection: keep-alive
+Host: localhost:7192
+User-Agent: PostmanRuntime/7.31.1
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Content-Type: text/plain
+Content-Length: 151
+Postman-Token: [Redacted]
+
+[2023-03-23 11:46:39 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)"'
+
+[2023-03-23 11:46:39 Information] 
+   Route matched with "{action = \"AddHotel\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]] AddHotel(HotelBookingSystem.Models.ResponseModels.HotelEntity)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 11:46:39 Information] 
+   Response:
+StatusCode: 415
+Content-Type: application/problem+json; charset=utf-8
+
+[2023-03-23 11:46:39 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)" in 12.1267ms
+
+[2023-03-23 11:46:39 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)"'
+
+[2023-03-23 11:46:39 Information] 
+   RequestBody: ""
+
+[2023-03-23 11:46:39 Information] 
+   ResponseBody: "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.13\",\"title\":\"Unsupported Media Type\",\"status\":415,\"traceId\":\"00-0a6b5de5d44d0b765a720f261d8f4c67-f5a6c4d5e7d3b611-00\"}"
+
+[2023-03-23 11:58:29 Information] 
+   Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: */*
+Connection: keep-alive
+Host: localhost:7192
+User-Agent: PostmanRuntime/7.31.1
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Content-Type: text/plain
+Content-Length: 151
+Postman-Token: [Redacted]
+
+[2023-03-23 11:58:30 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)"'
+
+[2023-03-23 11:58:30 Information] 
+   Route matched with "{action = \"AddHotel\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]] AddHotel(HotelBookingSystem.Models.ResponseModels.HotelEntity)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 11:58:30 Information] 
+   Response:
+StatusCode: 415
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 11:58:30 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)" in 98.4202ms
+
+[2023-03-23 11:58:30 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)"'
+
+[2023-03-23 11:58:30 Information] 
+   RequestBody: ""
+
+[2023-03-23 11:58:30 Information] 
+   ResponseBody: "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.13\",\"title\":\"Unsupported Media Type\",\"status\":415,\"traceId\":\"00-5410a79cf3785ba9ce7fdb11acbdaf6e-5a7c1ea125d820d0-00\"}"
+
+[2023-03-23 11:58:59 Information] 
+   Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 335
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 11:58:59 Information] 
+   RequestBody: ""
+
+[2023-03-23 11:58:59 Information] 
+   Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+
+[2023-03-23 11:59:29 Information] 
+   Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: */*
+Connection: keep-alive
+Host: localhost:7192
+User-Agent: PostmanRuntime/7.31.1
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Content-Type: application/json
+Content-Length: 151
+Postman-Token: [Redacted]
+
+[2023-03-23 11:59:29 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)"'
+
+[2023-03-23 11:59:29 Information] 
+   Route matched with "{action = \"AddHotel\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]] AddHotel(HotelBookingSystem.Models.ResponseModels.HotelEntity)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 11:59:29 Information] 
+   RequestBody: "{
+  \"name\": \"string\",
+  \"address\": \"string\",
+  \"city\": \"string\",
+  \"state\": \"string\",
+  \"pincode\": \"string\",
+  \"hotelRating\": 0,
+  \"Rooms\":[]
+}"
+
+[2023-03-23 11:59:32 Information] 
+   Executed DbCommand ("123"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [h].[Id]
+FROM [Hotel] AS [h]
+ORDER BY [h].[Id] DESC"
+
+[2023-03-23 11:59:33 Information] 
+   Executed DbCommand ("89"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 100) (DbType = AnsiString), @p2='?' (Size = 50) (DbType = AnsiString), @p3='?' (Size = 8000) (DbType = AnsiString), @p4='?' (Precision = 1) (DbType = Decimal), @p5='?' (Size = 100) (DbType = AnsiString), @p6='?' (Size = 10) (DbType = AnsiString), @p7='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Hotel] ([Id], [Address], [City], [Description], [Hotel Rating], [Name], [Pincode], [State])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Status]
+FROM [Hotel]
+WHERE @@ROWCOUNT = 1 AND [Id] = @p0;"
+
+[2023-03-23 11:59:33 Information] 
+   Executed DbCommand ("6"ms) [Parameters=["@__hotel_Name_0='?' (Size = 100) (DbType = AnsiString), @__hotel_Address_1='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [h].[Id], [h].[Address], [h].[City], [h].[Description], [h].[Hotel Rating], [h].[Name], [h].[Pincode], [h].[State], [h].[Status]
+FROM [Hotel] AS [h]
+WHERE ([h].[Name] = @__hotel_Name_0) AND ([h].[Address] = @__hotel_Address_1)"
+
+[2023-03-23 11:59:33 Information] 
+   Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 11:59:33 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)" in 4355.2828ms
+
+[2023-03-23 11:59:33 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)"'
+
+[2023-03-23 11:59:33 Information] 
+   ResponseBody: "{\"statusCode\":200,\"result\":{\"id\":21,\"name\":\"string\",\"address\":\"string\",\"city\":\"string\",\"state\":\"string\",\"pincode\":\"string\",\"hotelRating\":0},\"totalResult\":1}"
+
+[2023-03-23 12:01:50 Information] 
+   Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: */*
+Connection: keep-alive
+Host: localhost:7192
+User-Agent: PostmanRuntime/7.31.1
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Content-Type: application/json
+Content-Length: 151
+Postman-Token: [Redacted]
+
+[2023-03-23 12:01:50 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)"'
+
+[2023-03-23 12:01:51 Information] 
+   Route matched with "{action = \"AddHotel\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]] AddHotel(HotelBookingSystem.Models.ResponseModels.HotelEntity)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 12:01:51 Information] 
+   RequestBody: "{
+  \"name\": \"string\",
+  \"address\": \"string\",
+  \"city\": \"string\",
+  \"state\": \"string\",
+  \"pincode\": \"string\",
+  \"hotelRating\": 0,
+  \"Rooms\":[]
+}"
+
+[2023-03-23 12:01:53 Error] 
+   Failed executing DbCommand ("203"ms) [Parameters=["@p0='?' (Size = 100) (DbType = AnsiString), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (Size = 8000) (DbType = AnsiString), @p3='?' (Precision = 1) (DbType = Decimal), @p4='?' (Size = 100) (DbType = AnsiString), @p5='?' (Size = 10) (DbType = AnsiString), @p6='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Hotel] ([Address], [City], [Description], [Hotel Rating], [Name], [Pincode], [State])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id], [Status]
+FROM [Hotel]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+[2023-03-23 12:01:54 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)" in 3398.985ms
+
+[2023-03-23 12:01:54 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)"'
+
+[2023-03-23 12:01:54 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 12:01:54 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"An error occurred while saving the entity changes. See the inner exception for details.\"}"
+
+[2023-03-23 12:06:56 Information] 
+   Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: */*
+Connection: keep-alive
+Host: localhost:7192
+User-Agent: PostmanRuntime/7.31.1
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Content-Type: application/json
+Content-Length: 151
+Postman-Token: [Redacted]
+
+[2023-03-23 12:06:56 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)"'
+
+[2023-03-23 12:06:56 Information] 
+   Route matched with "{action = \"AddHotel\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]] AddHotel(HotelBookingSystem.Models.ResponseModels.HotelEntity)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 12:06:56 Information] 
+   RequestBody: "{
+  \"name\": \"string\",
+  \"address\": \"string\",
+  \"city\": \"string\",
+  \"state\": \"string\",
+  \"pincode\": \"string\",
+  \"hotelRating\": 0,
+  \"Rooms\":[]
+}"
+
+[2023-03-23 12:06:56 Information] 
+   Executed DbCommand ("9"ms) [Parameters=["@p0='?' (Size = 100) (DbType = AnsiString), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (Size = 8000) (DbType = AnsiString), @p3='?' (Precision = 1) (DbType = Decimal), @p4='?' (Size = 100) (DbType = AnsiString), @p5='?' (Size = 10) (DbType = AnsiString), @p6='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Hotel] ([Address], [City], [Description], [Hotel Rating], [Name], [Pincode], [State])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id], [Status]
+FROM [Hotel]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+[2023-03-23 12:06:57 Information] 
+   Executed DbCommand ("19"ms) [Parameters=["@__hotel_Name_0='?' (Size = 100) (DbType = AnsiString), @__hotel_Address_1='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [h].[Id], [h].[Address], [h].[City], [h].[Description], [h].[Hotel Rating], [h].[Name], [h].[Pincode], [h].[State], [h].[Status]
+FROM [Hotel] AS [h]
+WHERE ([h].[Name] = @__hotel_Name_0) AND ([h].[Address] = @__hotel_Address_1)"
+
+[2023-03-23 12:06:57 Information] 
+   Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 12:06:57 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)" in 923.4947ms
+
+[2023-03-23 12:06:57 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.AddHotel (HotelBookingSystem)"'
+
+[2023-03-23 12:06:57 Information] 
+   ResponseBody: "{\"statusCode\":200,\"result\":{\"id\":21,\"name\":\"string\",\"address\":\"string\",\"city\":\"string\",\"state\":\"string\",\"pincode\":\"string\",\"hotelRating\":0},\"totalResult\":1}"
+
+[2023-03-23 15:59:03 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 15:59:03 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 15:59:03 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 15:59:07 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 3665.4737ms
+
+[2023-03-23 15:59:07 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 15:59:07 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 15:59:07 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"The LINQ expression \u0027DbSet\u003CHotel\u003E()\r\n    .Where(h =\u003E Invoke(__prefix2_0, h)\r\n     \u0026\u0026 __filter_Ratings_1.Contains((int)h.HotelRating) \u0026\u0026 DbSet\u003CHotelRoom\u003E()\r\n        .Where(h0 =\u003E EF.Property\u003Cint?\u003E(h, \u0022Id\u0022) != null \u0026\u0026 object.Equals(\r\n            objA: (object)EF.Property\u003Cint?\u003E(h, \u0022Id\u0022), \r\n            objB: (object)EF.Property\u003Cint?\u003E(h0, \u0022HotelId\u0022)))\r\n        .Min(h0 =\u003E h0.Rate) \u003E= __p_2 \u0026\u0026 DbSet\u003CHotelRoom\u003E()\r\n        .Where(h1 =\u003E EF.Property\u003Cint?\u003E(h, \u0022Id\u0022) != null \u0026\u0026 object.Equals(\r\n            objA: (object)EF.Property\u003Cint?\u003E(h, \u0022Id\u0022), \r\n            objB: (object)EF.Property\u003Cint?\u003E(h1, \u0022HotelId\u0022)))\r\n        .Min(h1 =\u003E h1.Rate) \u003C= __p_3)\u0027 could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to \u0027AsEnumerable\u0027, \u0027AsAsyncEnumerable\u0027, \u0027ToList\u0027, or \u0027ToListAsync\u0027. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.\"}"
+
+[2023-03-23 15:59:56 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 15:59:56 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 15:59:56 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 15:59:57 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 148.7554ms
+
+[2023-03-23 15:59:57 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 15:59:57 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 15:59:57 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"The LINQ expression \u0027DbSet\u003CHotel\u003E()\r\n    .Where(h =\u003E Invoke(__prefix2_0, h)\r\n     \u0026\u0026 __filter_Ratings_1.Contains((int)h.HotelRating) \u0026\u0026 DbSet\u003CHotelRoom\u003E()\r\n        .Where(h0 =\u003E EF.Property\u003Cint?\u003E(h, \u0022Id\u0022) != null \u0026\u0026 object.Equals(\r\n            objA: (object)EF.Property\u003Cint?\u003E(h, \u0022Id\u0022), \r\n            objB: (object)EF.Property\u003Cint?\u003E(h0, \u0022HotelId\u0022)))\r\n        .Min(h0 =\u003E h0.Rate) \u003E= __p_2 \u0026\u0026 DbSet\u003CHotelRoom\u003E()\r\n        .Where(h1 =\u003E EF.Property\u003Cint?\u003E(h, \u0022Id\u0022) != null \u0026\u0026 object.Equals(\r\n            objA: (object)EF.Property\u003Cint?\u003E(h, \u0022Id\u0022), \r\n            objB: (object)EF.Property\u003Cint?\u003E(h1, \u0022HotelId\u0022)))\r\n        .Min(h1 =\u003E h1.Rate) \u003C= __p_3)\u0027 could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to \u0027AsEnumerable\u0027, \u0027AsAsyncEnumerable\u0027, \u0027ToList\u0027, or \u0027ToListAsync\u0027. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.\"}"
+
+[2023-03-23 16:10:31 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 16:10:32 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:10:32 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 16:10:32 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 195.8819ms
+
+[2023-03-23 16:10:32 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:10:32 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 16:10:32 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"The binary operator AndAlso is not defined for the types \u0027System.Func\u00602[HotelBookingSystem.Models.RequestModels.Hotel,System.Boolean]\u0027 and \u0027System.Func\u00602[HotelBookingSystem.Models.RequestModels.Hotel,System.Boolean]\u0027.\"}"
+
+[2023-03-23 16:11:02 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 16:11:02 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:11:02 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 16:11:14 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 12306.57ms
+
+[2023-03-23 16:11:14 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:11:14 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 16:11:14 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"The binary operator AndAlso is not defined for the types \u0027System.Func\u00602[HotelBookingSystem.Models.RequestModels.Hotel,System.Boolean]\u0027 and \u0027System.Func\u00602[HotelBookingSystem.Models.RequestModels.Hotel,System.Boolean]\u0027.\"}"
+
+[2023-03-23 16:11:25 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 16:11:25 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:11:25 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 16:11:52 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 26569.1565ms
+
+[2023-03-23 16:11:52 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:11:52 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 16:11:52 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"The binary operator AndAlso is not defined for the types \u0027System.Func\u00602[HotelBookingSystem.Models.RequestModels.Hotel,System.Boolean]\u0027 and \u0027System.Func\u00602[HotelBookingSystem.Models.RequestModels.Hotel,System.Boolean]\u0027.\"}"
+
+[2023-03-23 16:17:24 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 16:17:24 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:17:24 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 16:17:36 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 11830.3167ms
+
+[2023-03-23 16:17:36 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:17:36 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 16:17:36 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"The LINQ expression \u0027x\u0027 could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to \u0027AsEnumerable\u0027, \u0027AsAsyncEnumerable\u0027, \u0027ToList\u0027, or \u0027ToListAsync\u0027. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.\"}"
+
+[2023-03-23 16:17:55 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 16:17:55 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:17:55 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 16:19:31 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 96288.4739ms
+
+[2023-03-23 16:19:31 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:19:31 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 16:19:31 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"The LINQ expression \u0027x\u0027 could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to \u0027AsEnumerable\u0027, \u0027AsAsyncEnumerable\u0027, \u0027ToList\u0027, or \u0027ToListAsync\u0027. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.\"}"
+
+[2023-03-23 16:20:30 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 16:20:30 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:20:30 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 16:20:33 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 2990.7473ms
+
+[2023-03-23 16:20:33 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:20:33 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 16:20:33 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"The LINQ expression \u0027x\u0027 could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to \u0027AsEnumerable\u0027, \u0027AsAsyncEnumerable\u0027, \u0027ToList\u0027, or \u0027ToListAsync\u0027. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.\"}"
+
+[2023-03-23 16:20:41 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 16:20:41 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:20:42 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 16:21:00 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 18197.325ms
+
+[2023-03-23 16:21:00 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:21:00 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 16:21:00 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"The LINQ expression \u0027x\u0027 could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to \u0027AsEnumerable\u0027, \u0027AsAsyncEnumerable\u0027, \u0027ToList\u0027, or \u0027ToListAsync\u0027. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.\"}"
+
+[2023-03-23 16:21:40 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 16:21:40 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:21:40 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 16:21:51 Information] 
+   Executed DbCommand ("137"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [h].[Id], [h].[Address], [h].[City], [h].[Description], [h].[Hotel Rating], [h].[Name], [h].[Pincode], [h].[State], [h].[Status]
+FROM [Hotel] AS [h]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY"
+
+[2023-03-23 16:21:51 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 10853.6245ms
+
+[2023-03-23 16:21:51 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:21:51 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 16:21:51 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"Data is Null. This method or property cannot be called on Null values.\"}"
+
+[2023-03-23 16:22:19 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 16:22:19 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:22:19 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 16:22:21 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 1868.446ms
+
+[2023-03-23 16:22:21 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:22:21 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 16:22:21 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"The LINQ expression \u0027x\u0027 could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to \u0027AsEnumerable\u0027, \u0027AsAsyncEnumerable\u0027, \u0027ToList\u0027, or \u0027ToListAsync\u0027. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.\"}"
+
+[2023-03-23 16:22:33 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 16:22:33 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:22:33 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 16:22:50 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 16776.7066ms
+
+[2023-03-23 16:22:50 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:22:50 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 16:22:50 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"The LINQ expression \u0027x\u0027 could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to \u0027AsEnumerable\u0027, \u0027AsAsyncEnumerable\u0027, \u0027ToList\u0027, or \u0027ToListAsync\u0027. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.\"}"
+
+[2023-03-23 16:31:49 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 16:31:49 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:31:50 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 16:31:52 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 2593.5551ms
+
+[2023-03-23 16:31:52 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:31:52 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 16:31:52 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"The LINQ expression \u0027pred =\u003E Invoke(pred, [RelationalEntityShaperExpression])\r\n\u0027 could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to \u0027AsEnumerable\u0027, \u0027AsAsyncEnumerable\u0027, \u0027ToList\u0027, or \u0027ToListAsync\u0027. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.\"}"
+
+[2023-03-23 16:51:05 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 16:51:05 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:51:05 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 16:51:09 Information] 
+   Executed DbCommand ("208"ms) [Parameters=["@__filter_Search_0='?' (Size = 4000), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [h].[Id], [h].[Address], [h].[City], [h].[Description], [h].[Hotel Rating], [h].[Name], [h].[Pincode], [h].[State], [h].[Status]
+FROM [Hotel] AS [h]
+WHERE (((@__filter_Search_0 = N'') OR (LEFT([h].[Name], LEN(@__filter_Search_0)) = @__filter_Search_0)) OR ((@__filter_Search_0 = N'') OR (LEFT([h].[City], LEN(@__filter_Search_0)) = @__filter_Search_0))) OR ([h].[Pincode] = @__filter_Search_0)
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY"
+
+[2023-03-23 16:51:09 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 4308.8649ms
+
+[2023-03-23 16:51:09 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:51:10 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 16:51:10 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"Message\":\"Data is Null. This method or property cannot be called on Null values.\"}"
+
+[2023-03-23 16:54:41 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Hotel
+Accept: application/json
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 16:54:41 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:54:41 Information] 
+   Route matched with "{action = \"Get\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelBookingSystem.Models.ResponseModels.HotelEntity]]] Get(HotelBookingSystem.Models.FilteringModels.HotelFilter)" on controller "HotelBookingSystem_2.Controllers.HotelController" ("HotelBookingSystem").
+
+[2023-03-23 16:54:45 Information] 
+   Executed DbCommand ("148"ms) [Parameters=["@__filter_Search_0='?' (Size = 4000), @__p_2='?' (Precision = 1) (DbType = Decimal), @__p_3='?' (Precision = 10) (DbType = Decimal), @__p_4='?' (DbType = Int32), @__p_5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [h].[Id], [h].[Address], [h].[City], [h].[Description], [h].[Hotel Rating], [h].[Name], [h].[Pincode], [h].[State], [h].[Status]
+FROM [Hotel] AS [h]
+WHERE ((((@__filter_Search_0 = N'') OR (LEFT([h].[Name], LEN(@__filter_Search_0)) = @__filter_Search_0)) OR ((@__filter_Search_0 = N'') OR (LEFT([h].[City], LEN(@__filter_Search_0)) = @__filter_Search_0))) OR ([h].[Pincode] = @__filter_Search_0)) AND (CAST([h].[Hotel Rating] AS int) IN (1, 2, 3, 4, 5) AND (((
+    SELECT MIN([h0].[Rate])
+    FROM [HotelRooms] AS [h0]
+    WHERE [h].[Id] = [h0].[Hotel Id]) >= @__p_2) AND ((
+    SELECT MIN([h1].[Rate])
+    FROM [HotelRooms] AS [h1]
+    WHERE [h].[Id] = [h1].[Hotel Id]) <= @__p_3)))
+ORDER BY (SELECT 1)
+OFFSET @__p_4 ROWS FETCH NEXT @__p_5 ROWS ONLY"
+
+[2023-03-23 16:54:45 Information] 
+   Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 16:54:45 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)" in 4112.0094ms
+
+[2023-03-23 16:54:45 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.HotelController.Get (HotelBookingSystem)"'
+
+[2023-03-23 16:54:45 Information] 
+   ResponseBody: "{\"statusCode\":200,\"result\":[{\"id\":1,\"name\":\"Hotel1\",\"address\":\"A1\",\"city\":\"C1\",\"state\":\"S1\",\"pincode\":\"12345\",\"hotelRating\":5},{\"id\":10,\"name\":\"Cosmopolitan Hotel\",\"address\":\"No. 706, Idle rd\",\"city\":\"Saskatoon\",\"state\":\"SK, Bangladesh\",\"pincode\":\"S2L 562\",\"hotelRating\":3},{\"id\":13,\"name\":\"Copper Hills Inn\",\"address\":\"No. 89, Jacob Rd\",\"city\":\"Paris\",\"state\":\"ON, Canada\",\"pincode\":\"467 289\",\"hotelRating\":5},{\"id\":16,\"name\":\"China Town Hotel\",\"address\":\"No. 156, James Road\",\"city\":\"Globe\",\"state\":\"AZ, USA\",\"pincode\":\"263 762\",\"hotelRating\":3},{\"id\":20,\"name\":\"Congress Hotel\",\"address\":\"No. 49, Dave Street\",\"city\":\"Kitchener\",\"state\":\"ON, Canada\",\"pincode\":\"N2C 2P6\",\"hotelRating\":5}],\"totalResult\":1}"
+
+[2023-03-23 19:31:59 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Sample/file
+Accept: */*
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 19:32:00 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:32:00 Information] 
+   Route matched with "{action = \"getFiles\", controller = \"Sample\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult getFiles()" on controller "HotelBookingSystem_2.Controllers.SampleController" ("HotelBookingSystem").
+
+[2023-03-23 19:32:00 Information] 
+   Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 19:32:00 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)" in 464.5867ms
+
+[2023-03-23 19:32:00 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:32:00 Information] 
+   ResponseBody: "[{\"exists\":true,\"length\":131,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\appsettings.Development.json\",\"name\":\"appsettings.Development.json\",\"lastModified\":\"2023-01-24T12:43:02.5306949+00:00\",\"isDirectory\":false},{\"exists\":true,\"length\":2179,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\appsettings.json\",\"name\":\"appsettings.json\",\"lastModified\":\"2023-02-27T11:12:48.7137559+00:00\",\"isDirectory\":false},{\"exists\":true,\"length\":-1,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\bin\",\"name\":\"bin\",\"lastModified\":\"2023-01-24T12:43:08.5304682+00:00\",\"isDirectory\":true},{\"exists\":true,\"length\":-1,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\Controllers\",\"name\":\"Controllers\",\"lastModified\":\"2023-03-23T14:01:40.6606082+00:00\",\"isDirectory\":true},{\"exists\":true,\"length\":-1,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\ErrorLog\",\"name\":\"ErrorLog\",\"lastModified\":\"2023-03-23T06:31:53.9472176+00:00\",\"isDirectory\":true},{\"exists\":true,\"length\":1300,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\HotelBookingSystem.csproj\",\"name\":\"HotelBookingSystem.csproj\",\"lastModified\":\"2023-03-23T06:12:16.4310156+00:00\",\"isDirectory\":false},{\"exists\":true,\"length\":699,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\HotelBookingSystem.csproj.user\",\"name\":\"HotelBookingSystem.csproj.user\",\"lastModified\":\"2023-01-24T12:43:02.7353797+00:00\",\"isDirectory\":false},{\"exists\":true,\"length\":-1,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\Log\",\"name\":\"Log\",\"lastModified\":\"2023-03-23T06:13:23.1873655+00:00\",\"isDirectory\":true},{\"exists\":true,\"length\":-1,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\obj\",\"name\":\"obj\",\"lastModified\":\"2023-03-23T12:50:12.8414398+00:00\",\"isDirectory\":true},{\"exists\":true,\"length\":4024,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\Program.cs\",\"name\":\"Program.cs\",\"lastModified\":\"2023-03-23T12:45:38.4138657+00:00\",\"isDirectory\":false},{\"exists\":true,\"length\":-1,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\Properties\",\"name\":\"Properties\",\"lastModified\":\"2023-01-24T12:43:21.3104781+00:00\",\"isDirectory\":true}]"
+
+[2023-03-23 19:33:51 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Sample/file
+Accept: */*
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 19:33:51 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:33:51 Information] 
+   Route matched with "{action = \"getFiles\", controller = \"Sample\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult getFiles()" on controller "HotelBookingSystem_2.Controllers.SampleController" ("HotelBookingSystem").
+
+[2023-03-23 19:33:51 Information] 
+   Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 19:33:51 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)" in 400.36ms
+
+[2023-03-23 19:33:51 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:33:51 Information] 
+   ResponseBody: "{\"exists\":true,\"length\":131,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\appsettings.Development.json\",\"name\":\"appsettings.Development.json\",\"lastModified\":\"2023-01-24T12:43:02.5306949+00:00\",\"isDirectory\":false}"
+
+[2023-03-23 19:34:18 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /appsettings.Development.json
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 19:34:18 Information] 
+   Response:
+StatusCode: 404
+
+[2023-03-23 19:35:07 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Sample/file
+Accept: */*
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 19:35:07 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:35:07 Information] 
+   Route matched with "{action = \"getFiles\", controller = \"Sample\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult getFiles()" on controller "HotelBookingSystem_2.Controllers.SampleController" ("HotelBookingSystem").
+
+[2023-03-23 19:35:08 Information] 
+   Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 19:35:08 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)" in 417.1949ms
+
+[2023-03-23 19:35:08 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:35:08 Information] 
+   ResponseBody: "[{\"exists\":true,\"length\":131,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\appsettings.Development.json\",\"name\":\"appsettings.Development.json\",\"lastModified\":\"2023-01-24T12:43:02.5306949+00:00\",\"isDirectory\":false},{\"exists\":true,\"length\":2179,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\appsettings.json\",\"name\":\"appsettings.json\",\"lastModified\":\"2023-02-27T11:12:48.7137559+00:00\",\"isDirectory\":false},{\"exists\":true,\"length\":-1,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\bin\",\"name\":\"bin\",\"lastModified\":\"2023-01-24T12:43:08.5304682+00:00\",\"isDirectory\":true},{\"exists\":true,\"length\":-1,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\Controllers\",\"name\":\"Controllers\",\"lastModified\":\"2023-03-23T14:04:47.0536634+00:00\",\"isDirectory\":true},{\"exists\":true,\"length\":-1,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\ErrorLog\",\"name\":\"ErrorLog\",\"lastModified\":\"2023-03-23T06:31:53.9472176+00:00\",\"isDirectory\":true},{\"exists\":true,\"length\":1300,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\HotelBookingSystem.csproj\",\"name\":\"HotelBookingSystem.csproj\",\"lastModified\":\"2023-03-23T06:12:16.4310156+00:00\",\"isDirectory\":false},{\"exists\":true,\"length\":699,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\HotelBookingSystem.csproj.user\",\"name\":\"HotelBookingSystem.csproj.user\",\"lastModified\":\"2023-01-24T12:43:02.7353797+00:00\",\"isDirectory\":false},{\"exists\":true,\"length\":-1,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\Log\",\"name\":\"Log\",\"lastModified\":\"2023-03-23T06:13:23.1873655+00:00\",\"isDirectory\":true},{\"exists\":true,\"length\":-1,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\obj\",\"name\":\"obj\",\"lastModified\":\"2023-03-23T12:50:12.8414398+00:00\",\"isDirectory\":true},{\"exists\":true,\"length\":4024,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\Program.cs\",\"name\":\"Program.cs\",\"lastModified\":\"2023-03-23T12:45:38.4138657+00:00\",\"isDirectory\":false},{\"exists\":true,\"length\":-1,\"physicalPath\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\Properties\",\"name\":\"Properties\",\"lastModified\":\"2023-01-24T12:43:21.3104781+00:00\",\"isDirectory\":true}]"
+
+[2023-03-23 19:39:15 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Sample/file
+Accept: */*
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 19:39:15 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:39:15 Information] 
+   Route matched with "{action = \"getFiles\", controller = \"Sample\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult getFiles()" on controller "HotelBookingSystem_2.Controllers.SampleController" ("HotelBookingSystem").
+
+[2023-03-23 19:39:39 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)" in 23453.6394ms
+
+[2023-03-23 19:39:39 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:39:39 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 19:39:39 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"error\":false,\"Message\":\"The header contains invalid values at index 0: \u0027Development\u0027\"}"
+
+[2023-03-23 19:40:24 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Sample/file
+Accept: */*
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 19:40:24 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:40:24 Information] 
+   Route matched with "{action = \"getFiles\", controller = \"Sample\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult getFiles()" on controller "HotelBookingSystem_2.Controllers.SampleController" ("HotelBookingSystem").
+
+[2023-03-23 19:40:47 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)" in 22545.6283ms
+
+[2023-03-23 19:40:47 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:40:47 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 19:40:47 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"error\":false,\"Message\":\"The header contains invalid values at index 0: \u0027json\u0027\"}"
+
+[2023-03-23 19:45:54 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Sample/file
+Accept: */*
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 19:45:54 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:45:54 Information] 
+   Route matched with "{action = \"getFiles\", controller = \"Sample\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult getFiles()" on controller "HotelBookingSystem_2.Controllers.SampleController" ("HotelBookingSystem").
+
+[2023-03-23 19:46:18 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)" in 23758.4497ms
+
+[2023-03-23 19:46:18 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:46:18 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 19:46:18 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"error\":false,\"Message\":\"The header contains invalid values at index 0: \u0027\u003Cnull\u003E\u0027\"}"
+
+[2023-03-23 19:47:23 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Sample/file
+Accept: */*
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 19:47:23 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:47:23 Information] 
+   Route matched with "{action = \"getFiles\", controller = \"Sample\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult getFiles()" on controller "HotelBookingSystem_2.Controllers.SampleController" ("HotelBookingSystem").
+
+[2023-03-23 19:47:38 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)" in 14174.7405ms
+
+[2023-03-23 19:47:38 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:47:38 Information] 
+   Response:
+StatusCode: 500
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 19:47:38 Information] 
+   ResponseBody: "{\"StatusCode\":500,\"error\":false,\"Message\":\"The header contains invalid values at index 0: \u0027\u003Cnull\u003E\u0027\"}"
+
+[2023-03-23 19:48:35 Information] 
+   Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Sample/file
+Accept: */*
+Host: localhost:7192
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+
+[2023-03-23 19:48:35 Information] 
+   Executing endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:48:36 Information] 
+   Route matched with "{action = \"getFiles\", controller = \"Sample\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult getFiles()" on controller "HotelBookingSystem_2.Controllers.SampleController" ("HotelBookingSystem").
+
+[2023-03-23 19:48:39 Information] 
+   Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+
+[2023-03-23 19:48:39 Information] 
+   Executed action "HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)" in 3622.8955ms
+
+[2023-03-23 19:48:39 Information] 
+   Executed endpoint '"HotelBookingSystem_2.Controllers.SampleController.getFiles (HotelBookingSystem)"'
+
+[2023-03-23 19:48:39 Information] 
+   ResponseBody: "[{\"fileName\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\appsettings.Development.json\",\"contentType\":\"application/json\",\"fileDownloadName\":\"\",\"enableRangeProcessing\":false},{\"fileName\":\"D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\appsettings.json\",\"contentType\":\"application/json\",\"fileDownloadName\":\"\",\"enableRangeProcessing\":false}]"

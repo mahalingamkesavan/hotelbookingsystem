@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "D:\\VisualStudio\\HotelBookingSystem-2\\HotelBookingSystem-2\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HotelBookingSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.HotelBookingSystem.props",
+      "PackagePath": "build\\HotelBookingSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.HotelBookingSystem.props",
+      "PackagePath": "buildMultiTargeting\\HotelBookingSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.HotelBookingSystem.props",
+      "PackagePath": "buildTransitive\\HotelBookingSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
